@@ -24,7 +24,7 @@ function validParentheses(parens) {
         // removes every couple of parentheses () until there's none left
         // if some parentheses are left unpaired, it means there's a problem
         stringArray.splice(i, 2);
-        spliceArray();
+        spliceArray(); // repeats recursively
       }
     }
   }
